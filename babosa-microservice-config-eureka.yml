@@ -10,7 +10,7 @@ server:
 spring:
   profiles: dev # 开发环境
   application:
-    name: microservice-config-eureka
+    name: babosa-microservice-config-eureka
    
 eureka:
   instance:
@@ -19,7 +19,7 @@ eureka:
     registerWithEureka: false
     fetchRegistry: false
     serviceUrl:
-      defaultZone: http://babosa6001.com:6001/babosa/
+      defaultZone: http://babosa6001.com:6001/eureka/
   server:
     enable-self-preservation: false # 禁用自我保护机制*****************
 
@@ -39,7 +39,7 @@ eureka:
     registerWithEureka: false
     fetchRegistry: false
     serviceUrl:
-      defaultZone: http://babosa6001.com:6001/babosa/
+      defaultZone: http://babosa6001.com:6001/eureka/
   server:
     enable-self-preservation: true # 开启自我保护机制*****************
    
