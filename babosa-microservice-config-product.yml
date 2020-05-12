@@ -16,7 +16,7 @@ mybatis:
 spring:
   profiles: dev # 开发环境
   application:
-    name: babosa-microservice-config-eureka #服务器名字
+    name: babosa-microservice-product-config #服务器名字
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -53,7 +53,7 @@ mybatis:
 spring:
   profiles: prod # 开发环境
   application:
-    name: babosa-microservice-config-eureka #服务器名字
+    name: babosa-microservice-product-config #服务器名字
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver
