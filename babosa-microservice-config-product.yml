@@ -4,7 +4,7 @@ spring:
     active: prod # 激活开发环境配置
 
 emp:
-  name: babosa-bj
+  name: babosa-change
 ---
 
 server:
