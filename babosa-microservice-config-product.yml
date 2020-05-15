@@ -53,7 +53,7 @@ mybatis:
 spring:
   profiles: prod # 开发环境
   application:
-    name: babosa-microservice-product-config4444 #服务器名字
+    name: babosa-microservice-product-config-rabbitMQ-bus #服务器名字
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource       # 当前数据源操作类型
     driver-class-name: com.mysql.cj.jdbc.Driver       # mysql驱动包
