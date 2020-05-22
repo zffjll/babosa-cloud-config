@@ -22,7 +22,8 @@ spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource       # 当前数据源操作类型
     driver-class-name: com.mysql.cj.jdbc.Driver       # mysql驱动包
-    url: jdbc:mysql://127.0.0.1:3306/springcloud_db01?serverTimezone=GMT%2B8  # 数据库名称
+    url: jdbc:mysql://192.168.10.11:3306/springcloud_db02?serverTimezone=GMT%2B8  # 数据库名称
+#     url: jdbc:mysql://127.0.0.1:3306/springcloud_db02?serverTimezone=GMT%2B8  # 数据库名称
     username: root
     password: root
     dbcp2:
@@ -40,7 +41,8 @@ eureka:
     registerWithEureka: true
     fetchRegistry: true
     serviceUrl:
-      defaultZone: http://babosa6001.com:6001/eureka/
+        defaultZone: http://192.168.10.11:6001/eureka/
+#       defaultZone: http://babosa6001.com:6001/eureka/
 
 ---
 
@@ -59,7 +61,7 @@ spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource       # 当前数据源操作类型
     driver-class-name: com.mysql.cj.jdbc.Driver       # mysql驱动包
-    url: jdbc:mysql://127.0.0.1:3306/springcloud_db03?serverTimezone=GMT%2B8  # 数据库名称
+    url: jdbc:mysql://192.168.10.11:3306/springcloud_db03?serverTimezone=GMT%2B8  # 数据库名称
     username: root
     password: root
     dbcp2:
@@ -77,6 +79,6 @@ eureka:
     registerWithEureka: true
     fetchRegistry: true
     serviceUrl:
-      defaultZone: http://babosa6001.com:6001/eureka/
+      defaultZone: http://192.168.10.11:6001/eureka/
    
 #保存时注意，选择 UTF-8 保存
